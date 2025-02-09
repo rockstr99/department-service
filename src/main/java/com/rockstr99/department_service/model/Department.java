@@ -6,7 +6,7 @@ import java.util.List;
 public class Department {
     private Long id;
     private String name;
-    private List<Employees> employees = new ArrayList<>();
+    private List<Employee> employees = new ArrayList<>();
 
     public Department() {
     }
@@ -32,11 +32,11 @@ public class Department {
         this.name = name;
     }
 
-    public List<Employees> getEmployees() {
+    public List<Employee> getEmployees() {
         return employees;
     }
 
-    public void setEmployees(List<Employees> employees) {
+    public void setEmployees(List<Employee> employees) {
         this.employees = employees;
     }
 
